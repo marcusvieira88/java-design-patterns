@@ -3,7 +3,7 @@
 Project used to practice design patterns in Java.
 
 ### Creational
-- [Singleton](src/tech/marcusvieira/behavioral/singleton/Singleton.md)
+- [Singleton](src/tech/marcusvieira/creational/singleton/Singleton.md)
 
 ### Structural
 
