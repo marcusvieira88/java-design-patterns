@@ -5,5 +5,5 @@
  looks for the appropriate object which can handle this command and passes the command to the
  corresponding object which executes the command.
  
- ![Command Design Pattern](src/tech/marcusvieira/behavioral/command/command.png)
+ ![Command Design Pattern](command.png)
  

@@ -5,4 +5,4 @@ of the class exists in the java virtual machine. The singleton class must provid
 point to get the instance of the class. Singleton pattern is used for logging, drivers objects, caching
 and thread pool.
  
- ![Singleton Design Pattern](src/tech/marcusvieira/creational/singleton/singleton.png)
+ ![Singleton Design Pattern](singleton.png)
