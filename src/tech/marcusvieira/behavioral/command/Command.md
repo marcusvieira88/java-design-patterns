@@ -1,4 +1,4 @@
-# Command pattern
+# Command Design Pattern
  
  Command pattern is a data driven design pattern and falls under behavioral pattern category.
  A request is wrapped under an object as command and passed to invoker object. Invoker object
