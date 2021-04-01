@@ -2,7 +2,7 @@ package tech.marcusvieira.creational.factory;
 
 public class NotificationFactory {
 
-    public Notification createNotification(String notificationType) {
+    public Notification create(String notificationType) {
         Notification notification = null;
         switch (notificationType){
             case "SMS" -> notification = new SmsNotification();

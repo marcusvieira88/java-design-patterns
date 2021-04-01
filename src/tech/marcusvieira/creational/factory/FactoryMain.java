@@ -5,13 +5,13 @@ public class FactoryMain {
     public static void main(String[] args) {
         NotificationFactory notificationFactory = new NotificationFactory();
 
-        Notification sms = notificationFactory.createNotification("SMS");
+        Notification sms = notificationFactory.create("SMS");
         sms.sendNotification();
 
-        Notification email = notificationFactory.createNotification("EMAIL");
+        Notification email = notificationFactory.create("EMAIL");
         email.sendNotification();
 
-        Notification letter = notificationFactory.createNotification("LETTER");
+        Notification letter = notificationFactory.create("LETTER");
         letter.sendNotification();
     }
 }
