@@ -9,5 +9,7 @@ Project used to practice design patterns in Java.
 
 ### Structural
 
+- [Decorator](src/tech/marcusvieira/structural/decorator/Decorator.md)
+
 ### Behavioral
 - [Command](src/tech/marcusvieira/behavioral/command/Command.md)
