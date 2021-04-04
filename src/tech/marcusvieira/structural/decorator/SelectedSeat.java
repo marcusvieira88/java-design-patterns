@@ -2,10 +2,8 @@ package tech.marcusvieira.structural.decorator;
 
 public class SelectedSeat extends FlightTicketDecorator {
 
-    private FlightTicket flightTicket;
-
     public SelectedSeat(FlightTicket flightTicket) {
-        this.flightTicket = flightTicket;
+        super(flightTicket);
     }
 
     @Override

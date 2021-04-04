@@ -2,10 +2,8 @@ package tech.marcusvieira.structural.decorator;
 
 public class ExtraLuggage extends FlightTicketDecorator {
 
-    private FlightTicket flightTicket;
-
     public ExtraLuggage(FlightTicket flightTicket) {
-        this.flightTicket = flightTicket;
+        super(flightTicket);
     }
 
     @Override
